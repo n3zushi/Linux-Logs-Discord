@@ -1,6 +1,7 @@
 #!/bin/bash
 
 webhook_url="https://discord.com/api/webhooks/"
+whitelist=("192.168.1.1" "10.0.0.1") # Add your IP here 
 
 function log_command {
     current_date=$(date +"%d-%m %T")
