@@ -22,7 +22,15 @@ Configure the Discord webhook:
 
 Replace https://discordapp.com/api/webhooks/ with your Discord webhook URL in the script.
 
-2. **Restart the shell:**
+2. **Configure the IP whitelist (Optional):**
+
+```bash
+whitelist=("192.168.1.1" "192.168.1.2")
+```
+
+Edit the script to include the IP addresses you want to whitelist. Look for the whitelist array in the script and add the desired IP addresses.
+
+3. **Restart the shell:**
 
 Restart your shell session or open a new terminal.
 
